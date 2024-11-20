@@ -8,7 +8,7 @@ Your challenge is to complete a candidate search application that calls the GitH
 
 The application’s API, retrieves data from the GitHub API, has already been created. It's your job to complete the front end using TypeScript, call the application's API, and then deploy the entire application to Render.
 
-* For more information on the data returned by the GitHub API, refer to the [GitHub Documentation on REST API Endpoints for Users](https://docs.github.com/en/rest/users/users).
+- For more information on the data returned by the GitHub API, refer to the [GitHub Documentation on REST API Endpoints for Users](https://docs.github.com/en/rest/users/users).
 
 > **important** You'll need to create a [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) to increase the API rate limit.
 
@@ -52,31 +52,31 @@ The following images show the web application's appearance and functionality:
 
 ## Getting Started
 
-* For this app to run, you'll need to create a GitHub Personal Access Token. Follow the instructions on [creating a fine-grained personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token), with the following caveats:
+- For this app to run, you'll need to create a GitHub Personal Access Token. Follow the instructions on [creating a fine-grained personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token), with the following caveats:
 
-  * When creating your fine-grained token, leave all the default permissions. We don't need to add any additional privileges to this token, since we're only using it to search public profiles.
+  - When creating your fine-grained token, leave all the default permissions. We don't need to add any additional privileges to this token, since we're only using it to search public profiles.
 
-  * Once your token is generated, add it to a `.env` file in the `environment` folder as `VITE_GITHUB_TOKEN`. The included `.env.EXAMPLE` file can be used as an example.
+  - Once your token is generated, add it to a `.env` file in the `environment` folder as `VITE_GITHUB_TOKEN`. The included `.env.EXAMPLE` file can be used as an example.
 
-  * You will NOT be able to view your token after you create it. If you forget to copy it over right away, you'll need to create a new token. 
+  - You will NOT be able to view your token after you create it. If you forget to copy it over right away, you'll need to create a new token.
 
 The starter code provides:
 
-* The application folder structure and scaffolding
+- The application folder structure and scaffolding
 
-* Code to retrieve data from the GitHub API
+- Code to retrieve data from the GitHub API
 
-  * `./Develop/src/api/API.tsx`
+  - `./Develop/src/api/API.tsx`
 
 You will need to:
 
-* Create a `.env` file with your GitHub API token
+- Create a `.env` file with your GitHub API token
 
-* Complete code for the `CandidateSearch` and `SavedCandidates` pages
+- Complete code for the `CandidateSearch` and `SavedCandidates` pages
 
-* Create any necessary components
+- Create any necessary components
 
-* Use local storage
+- Use local storage
 
 Refer to the [GitHub Documentation on Authenticating to the REST API](https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28#authenticating-with-a-personal-access-token) for information about creating your personal access token.
 
@@ -90,69 +90,70 @@ As a bonus, try to add the ability to sort and filter the list of potential cand
 
 > **note** If a Challenge assignment submission is marked as “0”, it is considered incomplete and won't count toward your graduation requirements. Examples of incomplete submissions include the following:
 >
-> * A repository that has no code
+> - A repository that has no code
 >
-> * A repository that includes a unique name but nothing else
+> - A repository that includes a unique name but nothing else
 >
-> * A repository that includes only a README file but nothing else
+> - A repository that includes only a README file but nothing else
 >
-> * A repository that only includes starter code
+> - A repository that only includes starter code
 
 This Challenge is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-* Application uses the GitHub API to retrieve user data
+- Application uses the GitHub API to retrieve user data
 
-* Application uses an interface to type user data
+- Application uses an interface to type user data
 
-* Application stores potential candidates in localStorage
+- Application stores potential candidates in localStorage
 
-* Application is deployed to Render
+- Application is deployed to Render
 
 ### Deployment: 32%
 
-* Application is deployed at live URL
+- Application is deployed at live URL
 
-* Application loads with no errors
+- Application loads with no errors
 
-* Application GitHub URL has been submitted
+- Application GitHub URL has been submitted
 
-* GitHub repository contains application code
+- GitHub repository contains application code
 
 ### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
+- Application user experience is intuitive and easy to navigate
 
-* Application user interface style is clean and polished
+- Application user interface style is clean and polished
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+- Application resembles the mock-up functionality provided in the Challenge instructions
 
 ### Repository Quality: 13%
 
-* Repository has a unique name
+- Repository has a unique name
 
-* Repository follows best practices for file structure and naming conventions
+- Repository follows best practices for file structure and naming conventions
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-* Repository contains multiple descriptive commit messages
+- Repository contains multiple descriptive commit messages
 
-* Repository contains a quality README file with a description, screenshot, and link to the deployed application
+- Repository contains a quality README file with a description, screenshot, and link to the deployed application
 
 ### Bonus: +10 Points
 
 Fulfilling the following can add up to 10 points to your grade (note that the highest grade you can achieve is still 100):
 
-* Application allows sorting and filtering of potential candidates
+- Application allows sorting and filtering of potential candidates
 
 ## Review
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application
+- The URL of the functional, deployed application
 
-* The URL of the GitHub repository (the repository should have a unique name and include a README describing the project)
+- The URL of the GitHub repository (the repository should have a unique name and include a README describing the project)
 
 ---
+
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
